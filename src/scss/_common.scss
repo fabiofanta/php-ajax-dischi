@@ -2,3 +2,9 @@
 	width: 1080px;
 	margin: auto;
 }
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}

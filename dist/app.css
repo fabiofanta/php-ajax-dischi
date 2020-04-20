@@ -13,6 +13,12 @@
   margin: auto;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* HEADER*/
 
 header {
@@ -33,6 +39,13 @@ main {
 
 main .card-container {
   padding: 50px;
+}
+
+main .card-container .card {
+  background-color: black;
+  width: 200px;
+  height: 300px;
+  float: left;
 }
 
 /*FOOTER*/

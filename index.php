@@ -14,7 +14,7 @@
 			</div>
 		</header>
 		<main>
-			<div class="card-container wrap">
+			<div class="card-container wrap clearfix">
 
 			</div>
 
