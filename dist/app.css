@@ -46,6 +46,13 @@ main .card-container .card {
   width: 200px;
   height: 300px;
   float: left;
+  text-align: center;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+main .card-container .card:nth-child(3n+0) {
+  margin-right: 0;
 }
 
 /*FOOTER*/

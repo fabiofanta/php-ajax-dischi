@@ -1,0 +1,9 @@
+@mixin card {
+	background-color: $primary_color;
+	width: 200px;
+	height: 300px;
+	float: left;
+	text-align: center;
+	padding: 20px;
+	margin-right: 50px;
+}

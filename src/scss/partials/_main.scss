@@ -6,10 +6,11 @@ main {
 		padding: 50px;
 
 		.card {
-			background-color: $primary_color;
-			width: 200px;
-			height: 300px;
-			float: left;
+			@include card;
+			&:nth-child(3n+0) {
+				margin-right: 0;
+			}
+
 		}
 	}
 }
