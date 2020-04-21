@@ -1,6 +1,6 @@
 @mixin card {
 	background-color: $primary_color;
-	width: calc((100% / 3) - 50px);
+	width: calc((100% - 100px) / 3);
 	height: 400px;
 	float: left;
 	text-align: center;
