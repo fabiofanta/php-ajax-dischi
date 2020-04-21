@@ -89,3 +89,46 @@ main .card-container .card .card-bottom .small {
 
 /*FOOTER*/
 
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 992px) {
+  .wrap {
+    width: 70%;
+  }
+
+  header .header-container {
+    width: 80%;
+  }
+
+  main .card-container .card {
+    width: calc((100% - 50px) / 2);
+  }
+
+  main .card-container .card:nth-child(3n+0) {
+    margin-right: 50px;
+  }
+
+  main .card-container .card:nth-child(2n+0) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrap {
+    width: 50%;
+  }
+
+  header .header-container {
+    width: 80%;
+  }
+
+  main .card-container .card {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  main .card-container .card:nth-child(3n+0) {
+    margin-right: 0;
+  }
+}
+
