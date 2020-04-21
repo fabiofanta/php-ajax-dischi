@@ -13,7 +13,8 @@ body {
 }
 
 .wrap {
-  width: 1080px;
+  width: 80%;
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -43,7 +44,7 @@ main {
 }
 
 main .card-container {
-  padding: 50px;
+  padding: 50px 0;
 }
 
 main .card-container .card {

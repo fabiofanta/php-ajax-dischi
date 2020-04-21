@@ -3,7 +3,7 @@ main {
 	height: calc(100% - 70px);
 
 	.card-container {
-		padding: 50px;
+		padding: 50px 0;
 
 		.card {
 			@include card;
