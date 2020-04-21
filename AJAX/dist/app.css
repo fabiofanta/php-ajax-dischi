@@ -76,15 +76,15 @@ main .card-container .card .card-bottom {
 main .card-container .card .card-bottom .title {
   font-weight: bold;
   padding-bottom: 5px;
+  font-size: 20px;
 }
 
 main .card-container .card .card-bottom .artist {
   color: lightgrey;
-  font-size: 15px;
 }
 
 main .card-container .card .card-bottom .small {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /*FOOTER*/
