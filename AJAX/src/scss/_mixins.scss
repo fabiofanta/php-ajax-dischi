@@ -1,7 +1,7 @@
 @mixin card {
 	background-color: $primary_color;
 	width: calc((100% / 3) - 50px);
-	height: 350px;
+	height: 400px;
 	float: left;
 	text-align: center;
 	padding: 20px;
