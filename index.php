@@ -25,16 +25,15 @@
 
 	</body>
 
-	<script id="entry-template" type="text/x-handlebars-template">
+	<script id="card-template" type="text/x-handlebars-template">
 		<div class="card">
 			<div class="card-top">
-				<img src="" alt="poster">
+				<img src="{{poster}}" alt="poster">
 			</div>
 			<div class="card-bottom">
-				<div class="title">
-				</div>
-				<div class="artist"></div>
-				<div class="date"></div>
+				<div class="title"> {{album}}</div>
+				<div class="artist">{{artist}}</div>
+				<div class="date">{{year}}</div>
 			</div>
 		</div>
 	</script>
@@ -42,4 +41,5 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+	<script src="dist/js/main.js" charset="utf-8"></script>
 </html>
