@@ -35,7 +35,7 @@ header .header-container .logo-container img {
 
 main {
   background-color: #2a2a2e;
-  height: calc(100vh - 70px);
+  height: calc(100% - 70px);
 }
 
 main .card-container {
@@ -50,10 +50,14 @@ main .card-container .card {
   text-align: center;
   padding: 20px;
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 
-main .card-container .card:nth-child(3n+0) {
-  margin-right: 0;
+main .card-container .card .card-top img {
+  width: 160px;
+  height: 180px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /*FOOTER*/

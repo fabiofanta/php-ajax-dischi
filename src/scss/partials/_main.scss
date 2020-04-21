@@ -1,15 +1,24 @@
 main {
 	background-color: $secondary_color;
-	height: calc(100vh - 70px);
+	height: calc(100% - 70px);
 
 	.card-container {
 		padding: 50px;
 
 		.card {
 			@include card;
-			&:nth-child(3n+0) {
-				margin-right: 0;
+			// &:nth-child(3n+0) {
+			// 	margin-right: 0;
+			// }
+			.card-top {
+
+				img {
+					width: 160px;
+					height:180px;
+					object-fit: contain;
+				}
 			}
+
 
 		}
 	}
