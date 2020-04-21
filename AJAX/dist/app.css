@@ -59,7 +59,7 @@ main .card-container .card {
 
 main .card-container .card .card-top img {
   width: 180px;
-  height: 180px;
+  height: 160px;
   -o-object-fit: cover;
      object-fit: cover;
 }
