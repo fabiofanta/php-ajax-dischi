@@ -1,0 +1,86 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrap {
+  width: 1080px;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* HEADER*/
+
+header {
+  background-color: black;
+  height: 70px;
+}
+
+header .header-container .logo-container img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+/*MAIN*/
+
+main {
+  background-color: #2a2a2e;
+  height: calc(100% - 70px);
+}
+
+main .card-container {
+  padding: 50px;
+}
+
+main .card-container .card {
+  background-color: black;
+  width: 220px;
+  height: 320px;
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+main .card-container .card .card-top img {
+  width: 180px;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .card-container .card .card-bottom {
+  color: white;
+}
+
+main .card-container .card .card-bottom .title {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+main .card-container .card .card-bottom .artist {
+  color: lightgrey;
+  font-size: 15px;
+}
+
+main .card-container .card .card-bottom .small {
+  font-size: 13px;
+}
+
+/*FOOTER*/
+
