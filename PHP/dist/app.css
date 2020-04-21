@@ -40,6 +40,7 @@ header .header-container .logo-container img {
 
 main {
   background-color: #2a2a2e;
+  min-height: 100vh;
 }
 
 main .card-container {
