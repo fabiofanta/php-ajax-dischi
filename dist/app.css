@@ -48,7 +48,7 @@ main .card-container {
 
 main .card-container .card {
   background-color: black;
-  width: 200px;
+  width: 220px;
   height: 320px;
   float: left;
   text-align: center;
@@ -58,10 +58,10 @@ main .card-container .card {
 }
 
 main .card-container .card .card-top img {
-  width: 160px;
+  width: 180px;
   height: 180px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 main .card-container .card .card-bottom {
