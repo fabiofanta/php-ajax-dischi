@@ -1,0 +1,14 @@
+header {
+	background-color: $primary_color;
+	height: 70px;
+
+	.header-container {
+		.logo-container {
+			img {
+				width: 50px;
+				margin-top: 10px;
+			}
+		}
+	}
+
+}
