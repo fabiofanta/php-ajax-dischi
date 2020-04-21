@@ -19,6 +19,24 @@ main {
 				}
 			}
 
+			.card-bottom {
+				color: $font_color;
+
+				.title {
+					font-weight: bold;
+					padding-bottom: 5px;
+				}
+
+				.artist {
+					color: lightgrey;
+					font-size: $primary_size;
+				}
+
+				.small {
+					font-size: $secondary_size;
+				}
+			}
+
 
 		}
 	}

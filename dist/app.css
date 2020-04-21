@@ -8,6 +8,10 @@
 
 /* COMMON */
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .wrap {
   width: 1080px;
   margin: auto;
@@ -45,12 +49,12 @@ main .card-container {
 main .card-container .card {
   background-color: black;
   width: 200px;
-  height: 300px;
+  height: 320px;
   float: left;
   text-align: center;
   padding: 20px;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 main .card-container .card .card-top img {
@@ -58,6 +62,24 @@ main .card-container .card .card-top img {
   height: 180px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+main .card-container .card .card-bottom {
+  color: white;
+}
+
+main .card-container .card .card-bottom .title {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+main .card-container .card .card-bottom .artist {
+  color: lightgrey;
+  font-size: 15px;
+}
+
+main .card-container .card .card-bottom .small {
+  font-size: 13px;
 }
 
 /*FOOTER*/

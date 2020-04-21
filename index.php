@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="dist/app.css">
 		<title></title>
 	</head>
@@ -32,8 +33,8 @@
 			</div>
 			<div class="card-bottom">
 				<div class="title"> {{album}}</div>
-				<div class="artist">{{artist}}</div>
-				<div class="date">{{year}}</div>
+				<div class="artist small">{{artist}}</div>
+				<div class="date small">{{year}}</div>
 			</div>
 		</div>
 	</script>

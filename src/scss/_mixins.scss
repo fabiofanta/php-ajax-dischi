@@ -1,10 +1,10 @@
 @mixin card {
 	background-color: $primary_color;
 	width: 200px;
-	height: 300px;
+	height: 320px;
 	float: left;
 	text-align: center;
 	padding: 20px;
 	margin-right: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }

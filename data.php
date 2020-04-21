@@ -15,7 +15,7 @@
 			'Poster' => "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Queen_Live_At_Wembley_'86.png/220px-Queen_Live_At_Wembley_'86.png",
 		],
 		[
-			'Album' => 'Tens Summoners Tales' ,
+			'Album' => 'Ten\'s Summoner\'s Tales' ,
 			'Artist' => 'Sting',
 			'Year' => '1993',
 			'Poster' => 'https://img.discogs.com/tFhUUJ6l1izONWT4sS5amzICtyk=/fit-in/600x597/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2089237-1323675830.jpeg.jpg',
